@@ -1,5 +1,5 @@
 footer {
-  background-color: rgb(57, 5, 5);
+  background-color: var(--bg-color-header-footer);
   padding: 20px 60px;
   color: white;
 

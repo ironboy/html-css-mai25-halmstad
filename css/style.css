@@ -1,3 +1,4 @@
+@import "variables.css";
 @import "box-sizing.css";
 @import "basics.css";
 @import "fonts.css";
@@ -6,5 +7,4 @@
 @import "main.css";
 @import "footer.css";
 @import "images.css";
-
 @import "lorem.css";
