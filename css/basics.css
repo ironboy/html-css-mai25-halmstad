@@ -1,4 +1,26 @@
 /* Remove margin so that elements can reach the edges of the viewport */
 body {
   margin: 0;
+  line-height: 130%;
+}
+
+/* Spacing between text elements */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 20px 0;
+}
+
+/* no margin above paragraphs */
+p {
+  margin-top: 0;
+}
+
+/* more margin between list items */
+li {
+  margin-bottom: 10px;
 }
