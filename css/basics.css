@@ -1,6 +1,7 @@
 /* Remove margin so that elements can reach the edges of the viewport */
 body {
-  margin: 0;
+  /* 102px margin-top top compensate for fixed header */
+  margin: 102px 0 0;
   line-height: 130%;
   /* do not allow horizontal scroll */
   overflow-x: hidden;
