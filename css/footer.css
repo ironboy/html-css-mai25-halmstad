@@ -7,7 +7,15 @@ footer {
      (in our case 3 section elements) float beside each other
      and have equal spacing between each other */
   @media screen and (min-width:576px) {
-    display: flex;
+
+    /* Both flex and grid can be used
+       for easy distribution of space between boxes */
+
+    /*display: flex;
+    justify-content: space-between;*/
+
+    display: grid;
+    grid-template-columns: repeat(3, auto);
     justify-content: space-between;
   }
 
