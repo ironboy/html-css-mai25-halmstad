@@ -2,7 +2,22 @@
 body {
   margin: 0;
   line-height: 130%;
+  /* do not allow horizontal scroll */
+  overflow-x: hidden;
 }
+
+/*
+  Some user seem to get some white to the right of
+  header, main, footer - because of 100vw on images
+  or overflow-x: hidden?
+  Whatever: This fixes it!
+*/
+header,
+main,
+footer {
+  width: 100vw;
+}
+
 
 /* Spacing between text elements */
 
@@ -13,6 +28,7 @@ h4,
 h5,
 h6 {
   margin: 20px 0;
+  line-height: 100%;
 }
 
 /* no margin above paragraphs */

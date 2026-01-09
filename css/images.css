@@ -21,7 +21,7 @@ img.hero {
     aspect-ratio: 16/9;
   }
 
-  @media (max-width: 450px) {
+  @media (max-width: 576px) {
     aspect-ratio: 10/9;
   }
 }
